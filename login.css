@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(images/bg-login.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+  background: rgb(207, 207, 207);
+  background: radial-gradient(circle, rgba(207, 207, 207, 1) 46%, rgba(194, 80, 27, 1) 100%);
+}
+
+.logo {
+  margin-bottom: 2rem;
+  width: 30%;
+}
+
+.bungkus {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.form-login {
+  background-color: rgb(222, 222, 222);
+  padding: 3rem 5rem;
+  border-radius: 1rem;
+  box-shadow: 1.25rem 2rem 3rem #888888;
+}
+
+.label {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: block;
+}
+
+.kotak-form {
+  margin-bottom: 2rem;
+}
+
+.btn-login {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.5rem 2.2rem;
+  background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 1rem;
+  color: whitesmoke;
+  width: 100%;
+  cursor: pointer;
+}
+
+input {
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  padding: 1rem 1rem;
+  background-color: yellowgreen;
+}
+
+input:hover {
+  background-color: yellow;
+  border: 1px dashed yellowgreen;
+}
